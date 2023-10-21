@@ -24,7 +24,6 @@ public class RPS {
                         break;
                     }
                 }
-                scan.nextLine();
                 System.out.println("Please enter a valid input (R,P,S)");
             } while (true);
 
@@ -43,7 +42,6 @@ public class RPS {
                         break;
                     }
                 }
-                scan.nextLine();
                 System.out.println("Please enter a valid input (R,P,S)");
             } while (true);
 
@@ -69,7 +67,7 @@ public class RPS {
             }
 
             // Check to play again
-            System.out.println("Play again? [Y/N]");
+            System.out.println("Play again? [Y/N] (MUST TYPE Y TO CONTINUE PLAYING!!!)");
             choice = scan.nextLine();
         } while (choice.equalsIgnoreCase("y"));
     }
